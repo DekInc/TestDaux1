@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #a9d9ec;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #ffffff;
+}
+
+.formEjemplo{
+  background-color: #e8ecee
+}
+
+.divError {
+  color: darkred;
+}

@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "HilmerTestDaux";
+}
+
+<section class="" style="">
+  <div class="container py-5">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-2-strong formEjemplo" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+  
+            <h3 class="mb-5">Formulario ejemplo</h3>
+            <form id="formEjemplo" method="post">
+              <div class="form-outline mb-4">
+                <input type="text" id="txtNombre" name="txtNombre" class="form-control form-control-lg"  />
+                <label class="form-label" for="txtNombre">Nombre</label>
+              </div>
+  
+              <div class="form-outline mb-4">
+                <input type="text" id="txtApellido" name="txtApellido" class="form-control form-control-lg" />
+                <label class="form-label" for="txtApellido">Apellido</label>
+              </div>
+  
+              <button class="btn btn-success btn-lg btn-block" type="submit">
+                <span id="spinEnviar" class="spinner-border spinner-border-sm visually-hidden" role="status" aria-hidden="true"></span>
+                <span class="sr-only">Enviar</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="modal fade" id="modalResultado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Resultado</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div id="modalContenido" class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
