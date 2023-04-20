@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DauxTestFrontEnd", "DauxTestFrontEnd.csproj", "{EC7813EA-35B5-425A-B7CE-8EF9458E0D62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DauxTestFrontEnd", "DauxTestFrontEnd.csproj", "{EC7813EA-35B5-425A-B7CE-8EF9458E0D62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DauxTestModels", "..\DauxTestModels\DauxTestModels.csproj", "{B5662093-5512-4EFC-B8F8-782ADFDE3586}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DauxTestModels", "..\DauxTestModels\DauxTestModels.csproj", "{B5662093-5512-4EFC-B8F8-782ADFDE3586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DauxService", "..\DauxService\DauxService.csproj", "{2EF4E0A9-A8D3-4FDA-BCE4-4C8FEDF0B936}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B5662093-5512-4EFC-B8F8-782ADFDE3586}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5662093-5512-4EFC-B8F8-782ADFDE3586}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5662093-5512-4EFC-B8F8-782ADFDE3586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF4E0A9-A8D3-4FDA-BCE4-4C8FEDF0B936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF4E0A9-A8D3-4FDA-BCE4-4C8FEDF0B936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF4E0A9-A8D3-4FDA-BCE4-4C8FEDF0B936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF4E0A9-A8D3-4FDA-BCE4-4C8FEDF0B936}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
